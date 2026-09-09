@@ -1,0 +1,575 @@
+{
+  "n_train_videos": 80,
+  "n_test_videos": 20,
+  "n_frames_train": 57592,
+  "n_frames_test": 14602,
+  "basis_refitted": false,
+  "train": [
+    {
+      "r": 1,
+      "variance_explained": 0.9376008819676698,
+      "relative_frobenius_error": 0.24979815458151214,
+      "mean_keypoint_error_px": 45.38686216700397,
+      "median_keypoint_error_px": 32.310771767965605
+    },
+    {
+      "r": 2,
+      "variance_explained": 0.9618370393325489,
+      "relative_frobenius_error": 0.19535342502103675,
+      "mean_keypoint_error_px": 37.05499655159904,
+      "median_keypoint_error_px": 28.323060896185723
+    },
+    {
+      "r": 3,
+      "variance_explained": 0.9758217220383285,
+      "relative_frobenius_error": 0.15549365891144915,
+      "mean_keypoint_error_px": 29.080199061182142,
+      "median_keypoint_error_px": 21.938331954010685
+    },
+    {
+      "r": 5,
+      "variance_explained": 0.9939806048493436,
+      "relative_frobenius_error": 0.07758476107235912,
+      "mean_keypoint_error_px": 13.77489770597982,
+      "median_keypoint_error_px": 10.53805738041772
+    },
+    {
+      "r": 8,
+      "variance_explained": 0.9967752198209602,
+      "relative_frobenius_error": 0.05678714800937326,
+      "mean_keypoint_error_px": 9.64623741316467,
+      "median_keypoint_error_px": 6.606800543352921
+    },
+    {
+      "r": 10,
+      "variance_explained": 0.9976378041457009,
+      "relative_frobenius_error": 0.04860242642397475,
+      "mean_keypoint_error_px": 8.318331475732098,
+      "median_keypoint_error_px": 5.80217395778797
+    },
+    {
+      "r": 15,
+      "variance_explained": 0.9988246070452509,
+      "relative_frobenius_error": 0.03428400435695661,
+      "mean_keypoint_error_px": 6.028997251747219,
+      "median_keypoint_error_px": 4.370976006619273
+    },
+    {
+      "r": 20,
+      "variance_explained": 0.9992877567555171,
+      "relative_frobenius_error": 0.026687885725216295,
+      "mean_keypoint_error_px": 4.686949167122439,
+      "median_keypoint_error_px": 3.4313563048624736
+    },
+    {
+      "r": 30,
+      "variance_explained": 0.9997398811451389,
+      "relative_frobenius_error": 0.016128200608258023,
+      "mean_keypoint_error_px": 2.9736613785571557,
+      "median_keypoint_error_px": 2.2395769697964494
+    },
+    {
+      "r": 40,
+      "variance_explained": 0.9999016927993034,
+      "relative_frobenius_error": 0.009914998774390874,
+      "mean_keypoint_error_px": 1.7865576357727635,
+      "median_keypoint_error_px": 1.30303973493477
+    },
+    {
+      "r": 60,
+      "variance_explained": 0.9999856164482989,
+      "relative_frobenius_error": 0.0037925653192638076,
+      "mean_keypoint_error_px": 0.6771201754909625,
+      "median_keypoint_error_px": 0.5005180671355502
+    },
+    {
+      "r": 80,
+      "variance_explained": 0.9999974296986989,
+      "relative_frobenius_error": 0.0016032159245089742,
+      "mean_keypoint_error_px": 0.28329224904600714,
+      "median_keypoint_error_px": 0.21169828216278028
+    },
+    {
+      "r": 100,
+      "variance_explained": 0.9999996441042535,
+      "relative_frobenius_error": 0.0005965699845319732,
+      "mean_keypoint_error_px": 0.09918257123335454,
+      "median_keypoint_error_px": 0.06930071165785077
+    },
+    {
+      "r": 152,
+      "variance_explained": 1.0,
+      "relative_frobenius_error": 8.486517730296813e-16,
+      "mean_keypoint_error_px": 1.6712795563060116e-13,
+      "median_keypoint_error_px": 1.3796244387938543e-13
+    }
+  ],
+  "held_out": [
+    {
+      "r": 1,
+      "variance_explained": 0.913394706452345,
+      "relative_frobenius_error": 0.2942877733573971,
+      "mean_keypoint_error_px": 52.862093604565466,
+      "median_keypoint_error_px": 34.463956151960424
+    },
+    {
+      "r": 2,
+      "variance_explained": 0.9510459063832024,
+      "relative_frobenius_error": 0.22125571996402163,
+      "mean_keypoint_error_px": 42.32200488981532,
+      "median_keypoint_error_px": 30.08990656243291
+    },
+    {
+      "r": 3,
+      "variance_explained": 0.9667690217967432,
+      "relative_frobenius_error": 0.1822936592513762,
+      "mean_keypoint_error_px": 33.86917667474439,
+      "median_keypoint_error_px": 23.391739072408086
+    },
+    {
+      "r": 5,
+      "variance_explained": 0.9937620372019617,
+      "relative_frobenius_error": 0.07898077486349568,
+      "mean_keypoint_error_px": 15.218685740162377,
+      "median_keypoint_error_px": 11.371512126236757
+    },
+    {
+      "r": 8,
+      "variance_explained": 0.9965209222532873,
+      "relative_frobenius_error": 0.05898370746835305,
+      "mean_keypoint_error_px": 10.49009823482649,
+      "median_keypoint_error_px": 7.118780820745987
+    },
+    {
+      "r": 10,
+      "variance_explained": 0.9974058793577225,
+      "relative_frobenius_error": 0.05093251066143402,
+      "mean_keypoint_error_px": 9.10473218717257,
+      "median_keypoint_error_px": 6.220410355901282
+    },
+    {
+      "r": 15,
+      "variance_explained": 0.9987287156235656,
+      "relative_frobenius_error": 0.03565507504457253,
+      "mean_keypoint_error_px": 6.472784706705005,
+      "median_keypoint_error_px": 4.550691937731258
+    },
+    {
+      "r": 20,
+      "variance_explained": 0.9992071114849841,
+      "relative_frobenius_error": 0.0281582761371427,
+      "mean_keypoint_error_px": 5.070094965449005,
+      "median_keypoint_error_px": 3.5769307593574746
+    },
+    {
+      "r": 30,
+      "variance_explained": 0.9997194076682407,
+      "relative_frobenius_error": 0.016750890476584814,
+      "mean_keypoint_error_px": 3.2110843398144024,
+      "median_keypoint_error_px": 2.3309313882932523
+    },
+    {
+      "r": 40,
+      "variance_explained": 0.999889608247068,
+      "relative_frobenius_error": 0.010506747971254287,
+      "mean_keypoint_error_px": 1.9585657142668298,
+      "median_keypoint_error_px": 1.3837243005417383
+    },
+    {
+      "r": 60,
+      "variance_explained": 0.9999845960291674,
+      "relative_frobenius_error": 0.0039247892723061365,
+      "mean_keypoint_error_px": 0.7381598340637247,
+      "median_keypoint_error_px": 0.532747851228647
+    },
+    {
+      "r": 80,
+      "variance_explained": 0.9999972100192375,
+      "relative_frobenius_error": 0.0016703235502611524,
+      "mean_keypoint_error_px": 0.31088133902660714,
+      "median_keypoint_error_px": 0.22530635833228135
+    },
+    {
+      "r": 100,
+      "variance_explained": 0.9999996036438611,
+      "relative_frobenius_error": 0.0006295682163516036,
+      "mean_keypoint_error_px": 0.10864582710479616,
+      "median_keypoint_error_px": 0.07319015468201248
+    },
+    {
+      "r": 152,
+      "variance_explained": 1.0,
+      "relative_frobenius_error": 8.586086138972887e-16,
+      "mean_keypoint_error_px": 1.7876802350889186e-13,
+      "median_keypoint_error_px": 1.4210854715202004e-13
+    }
+  ],
+  "held_out_per_video": {
+    "10": [
+      {
+        "video_id": "2BjPHzUfAwE-",
+        "frames": 648,
+        "relative_frobenius_error": 0.04259726736314001,
+        "mean_keypoint_error_px": 7.499515600596182
+      },
+      {
+        "video_id": "5ZCZs9X2QVY-",
+        "frames": 393,
+        "relative_frobenius_error": 0.08423562239334306,
+        "mean_keypoint_error_px": 9.506915108582891
+      },
+      {
+        "video_id": "5hmT0j2cs18-",
+        "frames": 443,
+        "relative_frobenius_error": 0.04986864057402881,
+        "mean_keypoint_error_px": 7.924649141603608
+      },
+      {
+        "video_id": "8Fu17ibMVuI-",
+        "frames": 737,
+        "relative_frobenius_error": 0.04406900666034754,
+        "mean_keypoint_error_px": 6.477269810932375
+      },
+      {
+        "video_id": "C48Wf5ioLfM-",
+        "frames": 682,
+        "relative_frobenius_error": 0.0453300363012958,
+        "mean_keypoint_error_px": 6.3527391411297645
+      },
+      {
+        "video_id": "GPJ-1l9CR1A-",
+        "frames": 678,
+        "relative_frobenius_error": 0.07295088255817717,
+        "mean_keypoint_error_px": 9.436918402304997
+      },
+      {
+        "video_id": "HEKN47L_f5s-",
+        "frames": 582,
+        "relative_frobenius_error": 0.04254495802294738,
+        "mean_keypoint_error_px": 6.9580054189569704
+      },
+      {
+        "video_id": "KSmFyrhmHbk-",
+        "frames": 577,
+        "relative_frobenius_error": 0.04830038074473672,
+        "mean_keypoint_error_px": 7.1702965447162015
+      },
+      {
+        "video_id": "LvWHg6zWVvA-",
+        "frames": 928,
+        "relative_frobenius_error": 0.04444437309316636,
+        "mean_keypoint_error_px": 7.485815762066892
+      },
+      {
+        "video_id": "NmqSqLpRfPw-",
+        "frames": 589,
+        "relative_frobenius_error": 0.03804097004708184,
+        "mean_keypoint_error_px": 6.299725752370136
+      },
+      {
+        "video_id": "aYQ5sdW3F0o-",
+        "frames": 558,
+        "relative_frobenius_error": 0.05300405955219538,
+        "mean_keypoint_error_px": 8.497264801874245
+      },
+      {
+        "video_id": "b2_Sx4lZhQ0-",
+        "frames": 411,
+        "relative_frobenius_error": 0.038835419519836635,
+        "mean_keypoint_error_px": 6.745007138756138
+      },
+      {
+        "video_id": "bTPqd-QWmUg-",
+        "frames": 1256,
+        "relative_frobenius_error": 0.044800206657012086,
+        "mean_keypoint_error_px": 7.043204211799445
+      },
+      {
+        "video_id": "qQq0X-95Qzo-",
+        "frames": 834,
+        "relative_frobenius_error": 0.04295909759588449,
+        "mean_keypoint_error_px": 7.361730214905597
+      },
+      {
+        "video_id": "rhrEqLib494-",
+        "frames": 888,
+        "relative_frobenius_error": 0.04380838356175031,
+        "mean_keypoint_error_px": 7.126276820922172
+      },
+      {
+        "video_id": "s8uIZZCBtko-",
+        "frames": 475,
+        "relative_frobenius_error": 0.054360737441926786,
+        "mean_keypoint_error_px": 8.379894279682448
+      },
+      {
+        "video_id": "vyBaeFU8J_k-",
+        "frames": 796,
+        "relative_frobenius_error": 0.057478668669286054,
+        "mean_keypoint_error_px": 9.083581902888389
+      },
+      {
+        "video_id": "yb7efY9x78U-",
+        "frames": 1468,
+        "relative_frobenius_error": 0.050863774337661254,
+        "mean_keypoint_error_px": 16.776023728856057
+      },
+      {
+        "video_id": "z6WQHuKwkVI-",
+        "frames": 696,
+        "relative_frobenius_error": 0.04615065611745268,
+        "mean_keypoint_error_px": 6.738858952639295
+      },
+      {
+        "video_id": "zWRmXJnur9o-",
+        "frames": 963,
+        "relative_frobenius_error": 0.056529506387219104,
+        "mean_keypoint_error_px": 17.79423786199844
+      }
+    ],
+    "20": [
+      {
+        "video_id": "2BjPHzUfAwE-",
+        "frames": 648,
+        "relative_frobenius_error": 0.024791105045548233,
+        "mean_keypoint_error_px": 4.451184241930829
+      },
+      {
+        "video_id": "5ZCZs9X2QVY-",
+        "frames": 393,
+        "relative_frobenius_error": 0.05175479136231882,
+        "mean_keypoint_error_px": 5.686328690816095
+      },
+      {
+        "video_id": "5hmT0j2cs18-",
+        "frames": 443,
+        "relative_frobenius_error": 0.028961250664596174,
+        "mean_keypoint_error_px": 4.480580642931891
+      },
+      {
+        "video_id": "8Fu17ibMVuI-",
+        "frames": 737,
+        "relative_frobenius_error": 0.024719824126646313,
+        "mean_keypoint_error_px": 3.752697304954741
+      },
+      {
+        "video_id": "C48Wf5ioLfM-",
+        "frames": 682,
+        "relative_frobenius_error": 0.025595008440637872,
+        "mean_keypoint_error_px": 3.4754510748968483
+      },
+      {
+        "video_id": "GPJ-1l9CR1A-",
+        "frames": 678,
+        "relative_frobenius_error": 0.03440923976316704,
+        "mean_keypoint_error_px": 4.633254064168646
+      },
+      {
+        "video_id": "HEKN47L_f5s-",
+        "frames": 582,
+        "relative_frobenius_error": 0.022120048287262696,
+        "mean_keypoint_error_px": 3.6556170146040183
+      },
+      {
+        "video_id": "KSmFyrhmHbk-",
+        "frames": 577,
+        "relative_frobenius_error": 0.02753232980423803,
+        "mean_keypoint_error_px": 4.197066154816783
+      },
+      {
+        "video_id": "LvWHg6zWVvA-",
+        "frames": 928,
+        "relative_frobenius_error": 0.024197923963328722,
+        "mean_keypoint_error_px": 4.101778354971135
+      },
+      {
+        "video_id": "NmqSqLpRfPw-",
+        "frames": 589,
+        "relative_frobenius_error": 0.021539992466650205,
+        "mean_keypoint_error_px": 3.6440187905453434
+      },
+      {
+        "video_id": "aYQ5sdW3F0o-",
+        "frames": 558,
+        "relative_frobenius_error": 0.02830519613914005,
+        "mean_keypoint_error_px": 4.574739160349701
+      },
+      {
+        "video_id": "b2_Sx4lZhQ0-",
+        "frames": 411,
+        "relative_frobenius_error": 0.021968108171941007,
+        "mean_keypoint_error_px": 3.889797797865445
+      },
+      {
+        "video_id": "bTPqd-QWmUg-",
+        "frames": 1256,
+        "relative_frobenius_error": 0.02380996198505675,
+        "mean_keypoint_error_px": 3.8517565036578594
+      },
+      {
+        "video_id": "qQq0X-95Qzo-",
+        "frames": 834,
+        "relative_frobenius_error": 0.02496941770639721,
+        "mean_keypoint_error_px": 4.349908523098033
+      },
+      {
+        "video_id": "rhrEqLib494-",
+        "frames": 888,
+        "relative_frobenius_error": 0.02545459306054959,
+        "mean_keypoint_error_px": 4.188614391625701
+      },
+      {
+        "video_id": "s8uIZZCBtko-",
+        "frames": 475,
+        "relative_frobenius_error": 0.028509030879645594,
+        "mean_keypoint_error_px": 4.625449807995833
+      },
+      {
+        "video_id": "vyBaeFU8J_k-",
+        "frames": 796,
+        "relative_frobenius_error": 0.03096257010338122,
+        "mean_keypoint_error_px": 4.836108482245458
+      },
+      {
+        "video_id": "yb7efY9x78U-",
+        "frames": 1468,
+        "relative_frobenius_error": 0.02821359630271665,
+        "mean_keypoint_error_px": 9.174792424133177
+      },
+      {
+        "video_id": "z6WQHuKwkVI-",
+        "frames": 696,
+        "relative_frobenius_error": 0.025455033178508477,
+        "mean_keypoint_error_px": 3.7032602784463773
+      },
+      {
+        "video_id": "zWRmXJnur9o-",
+        "frames": 963,
+        "relative_frobenius_error": 0.031253741601231115,
+        "mean_keypoint_error_px": 10.094406223347537
+      }
+    ],
+    "40": [
+      {
+        "video_id": "2BjPHzUfAwE-",
+        "frames": 648,
+        "relative_frobenius_error": 0.009243627690839851,
+        "mean_keypoint_error_px": 1.6449390581678358
+      },
+      {
+        "video_id": "5ZCZs9X2QVY-",
+        "frames": 393,
+        "relative_frobenius_error": 0.014643386587288676,
+        "mean_keypoint_error_px": 1.9434935400860032
+      },
+      {
+        "video_id": "5hmT0j2cs18-",
+        "frames": 443,
+        "relative_frobenius_error": 0.01093905958714744,
+        "mean_keypoint_error_px": 1.6870194289359222
+      },
+      {
+        "video_id": "8Fu17ibMVuI-",
+        "frames": 737,
+        "relative_frobenius_error": 0.010021353859901737,
+        "mean_keypoint_error_px": 1.507659690548563
+      },
+      {
+        "video_id": "C48Wf5ioLfM-",
+        "frames": 682,
+        "relative_frobenius_error": 0.009293633326085456,
+        "mean_keypoint_error_px": 1.3645835369968877
+      },
+      {
+        "video_id": "GPJ-1l9CR1A-",
+        "frames": 678,
+        "relative_frobenius_error": 0.011832257001798043,
+        "mean_keypoint_error_px": 1.6835773140810375
+      },
+      {
+        "video_id": "HEKN47L_f5s-",
+        "frames": 582,
+        "relative_frobenius_error": 0.008892655872066923,
+        "mean_keypoint_error_px": 1.4719560037023967
+      },
+      {
+        "video_id": "KSmFyrhmHbk-",
+        "frames": 577,
+        "relative_frobenius_error": 0.009719613679943482,
+        "mean_keypoint_error_px": 1.5739880866870504
+      },
+      {
+        "video_id": "LvWHg6zWVvA-",
+        "frames": 928,
+        "relative_frobenius_error": 0.010020234215305608,
+        "mean_keypoint_error_px": 1.6840788500261745
+      },
+      {
+        "video_id": "NmqSqLpRfPw-",
+        "frames": 589,
+        "relative_frobenius_error": 0.008411913674516268,
+        "mean_keypoint_error_px": 1.4462225281170702
+      },
+      {
+        "video_id": "aYQ5sdW3F0o-",
+        "frames": 558,
+        "relative_frobenius_error": 0.010890577337091025,
+        "mean_keypoint_error_px": 1.7839793269100521
+      },
+      {
+        "video_id": "b2_Sx4lZhQ0-",
+        "frames": 411,
+        "relative_frobenius_error": 0.008348197301739755,
+        "mean_keypoint_error_px": 1.5019538322616746
+      },
+      {
+        "video_id": "bTPqd-QWmUg-",
+        "frames": 1256,
+        "relative_frobenius_error": 0.009135286296509202,
+        "mean_keypoint_error_px": 1.4914731265102856
+      },
+      {
+        "video_id": "qQq0X-95Qzo-",
+        "frames": 834,
+        "relative_frobenius_error": 0.01071284372584166,
+        "mean_keypoint_error_px": 1.8126470337021034
+      },
+      {
+        "video_id": "rhrEqLib494-",
+        "frames": 888,
+        "relative_frobenius_error": 0.010506756025046866,
+        "mean_keypoint_error_px": 1.6984962220215063
+      },
+      {
+        "video_id": "s8uIZZCBtko-",
+        "frames": 475,
+        "relative_frobenius_error": 0.010496245566258895,
+        "mean_keypoint_error_px": 1.7844297081871396
+      },
+      {
+        "video_id": "vyBaeFU8J_k-",
+        "frames": 796,
+        "relative_frobenius_error": 0.011615737305330418,
+        "mean_keypoint_error_px": 1.9140768613581467
+      },
+      {
+        "video_id": "yb7efY9x78U-",
+        "frames": 1468,
+        "relative_frobenius_error": 0.01053086458848936,
+        "mean_keypoint_error_px": 3.5702768487793137
+      },
+      {
+        "video_id": "z6WQHuKwkVI-",
+        "frames": 696,
+        "relative_frobenius_error": 0.009850446247764082,
+        "mean_keypoint_error_px": 1.437188176060234
+      },
+      {
+        "video_id": "zWRmXJnur9o-",
+        "frames": 963,
+        "relative_frobenius_error": 0.011371943314958631,
+        "mean_keypoint_error_px": 3.6764407594772903
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "text_jaccard_same_video": 0.031560305841962184,
+  "text_jaccard_different_video": 0.0036111735469392717,
+  "same_video_text_confound_ratio": 8.739625894942602,
+  "variants": {
+    "all components (z1..z20)": {
+      "n_seqs_with_cross_video_NN": 265,
+      "mean_text_jaccard": 0.004920690359092135,
+      "chance": 0.0036111735469392717,
+      "lift_over_chance": 1.3626291550741925
+    },
+    "without u1 (z2..z20)": {
+      "n_seqs_with_cross_video_NN": 279,
+      "mean_text_jaccard": 0.005198157079877509,
+      "chance": 0.0036111735469392717,
+      "lift_over_chance": 1.4394647646561656
+    }
+  }
+}

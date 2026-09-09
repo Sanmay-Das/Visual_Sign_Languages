@@ -1,0 +1,34 @@
+{
+  "r": 20,
+  "max_len": 120,
+  "top_k": 5,
+  "n_sequences": 300,
+  "n_videos": 100,
+  "metric": "length-normalised DTW, euclidean local cost",
+  "variants": {
+    "all components (z1..z20)": {
+      "label": "all components (z1..z20)",
+      "same_video_at_rank1": 0.11666666666666667,
+      "same_video_within_top5": 0.24,
+      "chance_same_video": 0.006688963210702341,
+      "lift_over_chance": 17.441666666666666,
+      "mean_text_jaccard_at_rank1": 0.008177845288526404,
+      "chance_text_jaccard": 0.0037981242646317327,
+      "median_dtw_same_video": 301.2736639357362,
+      "median_dtw_different_video": 341.5191084408174,
+      "ratio_between_over_within": 1.1335843431494426
+    },
+    "without u1 (z2..z20)": {
+      "label": "without u1 (z2..z20)",
+      "same_video_at_rank1": 0.07,
+      "same_video_within_top5": 0.15666666666666668,
+      "chance_same_video": 0.006688963210702341,
+      "lift_over_chance": 10.465000000000002,
+      "mean_text_jaccard_at_rank1": 0.007774100899100898,
+      "chance_text_jaccard": 0.0037981242646317327,
+      "median_dtw_same_video": 260.1399201496122,
+      "median_dtw_different_video": 291.4699047102111,
+      "ratio_between_over_within": 1.1204351279210831
+    }
+  }
+}
