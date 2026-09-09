@@ -1,13 +1,7 @@
 numpy>=1.24
 scipy>=1.10
-
-# Reading iSign .pose files (per the iSign dataset README)
 pose-format>=0.3.2
-
-# Data handling and plots
 pandas>=2.0
 matplotlib>=3.7
-
-# HTTP range requests against the Hugging Face CDN
 requests>=2.31
 tqdm>=4.65

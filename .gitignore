@@ -1,25 +1,8 @@
-# ---------------------------------------------------------------------------
-# iSign data -- NEVER commit.
-#
-# The iSign dataset is gated. Its terms state that it must not be shared
-# further or uploaded anywhere else on the internet. Run src/fetch_data.py
-# with your own approved Hugging Face token to obtain these files.
-# ---------------------------------------------------------------------------
+# iSign data
 data/poses/
 data/iSign_v1.1.csv
 data/.cache/
 
-# ---------------------------------------------------------------------------
-# Not published
-# ---------------------------------------------------------------------------
-src/visualise_poses.py
-figures/poses_failures.png
-figures/poses_scale.png
-figures/poses_skeleton.png
-
-# ---------------------------------------------------------------------------
-# Python
-# ---------------------------------------------------------------------------
 __pycache__/
 *.py[cod]
 *.egg-info/
@@ -27,17 +10,10 @@ __pycache__/
 venv/
 .ipynb_checkpoints/
 
-# ---------------------------------------------------------------------------
-# Credentials -- belt and braces. No token is stored in this project; it is
-# read from $HF_TOKEN or ~/.cache/huggingface/token at runtime.
-# ---------------------------------------------------------------------------
 .env
 *.token
 hf_token*
 
-# ---------------------------------------------------------------------------
-# Editor / OS
-# ---------------------------------------------------------------------------
 .vscode/
 .idea/
 .DS_Store
