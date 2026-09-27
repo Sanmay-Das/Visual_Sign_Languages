@@ -1,0 +1,57 @@
+{
+  "n_fit_videos": 58,
+  "n_heldout_male": 20,
+  "n_female": 20,
+  "excluded_unidentifiable": 2,
+  "new_signer_vs_new_recording": {
+    "new recording (held-out male)": {
+      "variance_explained_r10": 0.9668094649310429,
+      "keypoint_error_r10": 0.04206893884730297,
+      "variance_explained_r20": 0.9874785431954435,
+      "keypoint_error_r20": 0.025859801271712606,
+      "keypoint_error_r20_95ci_by_video": [
+        0.024015110126741228,
+        0.028302961913780515
+      ]
+    },
+    "new signer (female)": {
+      "variance_explained_r10": 0.9659534436221789,
+      "keypoint_error_r10": 0.04713075741822915,
+      "variance_explained_r20": 0.9880770483555471,
+      "keypoint_error_r20": 0.02905594989446406,
+      "keypoint_error_r20_95ci_by_video": [
+        0.027996708579563555,
+        0.030330300778954065
+      ]
+    }
+  },
+  "windows_across_signers": {
+    "windows_female_queries": 921,
+    "windows_male_candidates": 3339,
+    "fraction_forward_closer": 0.5754614549402823,
+    "fraction_forward_closer_95ci_by_video": [
+      0.5326338654202487,
+      0.6193910420288372
+    ],
+    "window_frames": 16,
+    "stride": 8
+  },
+  "signer_identity_in_space": {
+    "raw": {
+      "nn_same_signer_group": 0.7346938775510204,
+      "base_rate": 0.6751353602665555,
+      "nn_same_signer_group_95ci_by_video": [
+        0.6632653061224489,
+        0.7993197278911565
+      ]
+    },
+    "normalized": {
+      "nn_same_signer_group": 0.7653061224489796,
+      "base_rate": 0.6751353602665555,
+      "nn_same_signer_group_95ci_by_video": [
+        0.7006802721088435,
+        0.8299319727891157
+      ]
+    }
+  }
+}

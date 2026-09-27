@@ -1,0 +1,48 @@
+{
+  "n_clips": 200,
+  "n_words": 50,
+  "pairs_sharing_youtube_source": 0,
+  "near_duplicate_pairs_excluded": 4,
+  "variants": {
+    "raw, r=20": {
+      "p_at_1": 0.395,
+      "hit_at_3": 0.515,
+      "chance_p_at_1": 0.01507537688442211,
+      "lift_p_at_1": 26.201666666666668,
+      "auc_same_vs_different": 0.6956069015444015,
+      "distinct_nearest_neighbours": 123
+    },
+    "normalized, full 152": {
+      "p_at_1": 0.43,
+      "hit_at_3": 0.545,
+      "chance_p_at_1": 0.01507537688442211,
+      "lift_p_at_1": 28.523333333333333,
+      "auc_same_vs_different": 0.6880500206839493,
+      "distinct_nearest_neighbours": 135
+    },
+    "normalized, r=10": {
+      "p_at_1": 0.435,
+      "hit_at_3": 0.53,
+      "chance_p_at_1": 0.01507537688442211,
+      "lift_p_at_1": 28.855,
+      "auc_same_vs_different": 0.6846756067291782,
+      "distinct_nearest_neighbours": 130
+    },
+    "normalized, r=20": {
+      "p_at_1": 0.44,
+      "hit_at_3": 0.535,
+      "chance_p_at_1": 0.01507537688442211,
+      "lift_p_at_1": 29.186666666666667,
+      "auc_same_vs_different": 0.687484831770546,
+      "distinct_nearest_neighbours": 134
+    },
+    "velocity, r=20": {
+      "p_at_1": 0.37,
+      "hit_at_3": 0.46,
+      "chance_p_at_1": 0.01507537688442211,
+      "lift_p_at_1": 24.543333333333333,
+      "auc_same_vs_different": 0.644973972697187,
+      "distinct_nearest_neighbours": 97
+    }
+  }
+}

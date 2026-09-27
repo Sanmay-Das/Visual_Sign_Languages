@@ -1,0 +1,28 @@
+{
+  "raw": {
+    "fraction_forward_closer_95ci_by_video": [
+      0.49391338744627306,
+      0.5248342306690873
+    ],
+    "windows": 4294,
+    "window_frames": 16,
+    "stride": 8,
+    "fraction_forward_closer": 0.5093153237074989,
+    "median_forward_distance": 1739.32275390625,
+    "median_reversed_distance": 1742.66455078125,
+    "median_ratio_reversed_over_forward": 1.0023133754730225
+  },
+  "normalized": {
+    "fraction_forward_closer_95ci_by_video": [
+      0.5523332835555825,
+      0.5815794009920583
+    ],
+    "windows": 4294,
+    "window_frames": 16,
+    "stride": 8,
+    "fraction_forward_closer": 0.5670703306939916,
+    "median_forward_distance": 6.917863845825195,
+    "median_reversed_distance": 7.007354736328125,
+    "median_ratio_reversed_over_forward": 1.014965534210205
+  }
+}
